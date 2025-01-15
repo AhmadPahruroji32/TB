@@ -10,6 +10,7 @@ void initLighting();
 bool hidden = false;
 float scale = 1.0;
 float aspect;
+//salma
 //---------------------------Fungsi Kartesius---------------------------//
 void drawCartesius()
 {
@@ -30,6 +31,7 @@ void drawCartesius()
     
     glEnd();
 }
+//roji
 //fungsi membuat meja kursi dan leptop
 void mejkurlep(){
 //-------------------------------------------Meja--------------------------
@@ -149,7 +151,7 @@ void mejkurlep(){
     glutSolidCube(1.0);
     glPopMatrix();
 }
-
+//salma
 void keyboard(unsigned char key, int x, int y)
 {
 
@@ -196,6 +198,7 @@ switch (key)
 }
 	glutPostRedisplay();
 }
+//Roji
 void display(){
  	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT); 
 //-------------------------------------Dingding dan Laintai----------------
@@ -319,8 +322,8 @@ void display(){
 	glColor3ub(176, 176, 176); 
 	glutSolidCube(1.0f);
 	glPopMatrix();
-
-//--------------------------------------------	Hiasan Pintu-------------------
+//salma
+//--------------------------------------------	Pintu-------------------
 // Bagian atas pintu
 	glPushMatrix();
 	glTranslatef(-7.75f, 1.0f, -9.75f);  
@@ -356,6 +359,7 @@ void display(){
 	glColor3ub(255, 255, 255); 
 	glutSolidCube(1.0f);
 	glPopMatrix();
+//Salma
 //---------------------------------------lomari baju------------------------------
 //badan lemari (depan)
     glPushMatrix();
@@ -408,6 +412,7 @@ void display(){
 	glFlush();
 	glutSwapBuffers();
 }
+//Roji
 //fungsi pencahayaan
 void initLighting()
 {
@@ -426,7 +431,7 @@ void initLighting()
     glColorMaterial(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE);
     glShadeModel(GL_SMOOTH);
 }
-
+//Roji
 //fungsi untuk setting viewport
 void reshape(int w, int h){
  	 if (h == 0)
@@ -445,6 +450,7 @@ void init(){
  	glClearColor(0.0, 0.0, 0.0, 1.0);
     initLighting();
 }
+//salma
 //---------------------------Main Program---------------------------//
 int main (int argc, char** argv){
  //inisialisasi

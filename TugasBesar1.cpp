@@ -8,7 +8,6 @@ void keyboard(unsigned char, int x, int y);
 void initLighting();
 //---------------------------variabel yang dapat di akses---------------------------//
 bool hidden = false;
-float scale = 1.0;
 float aspect;
 //salma
 //---------------------------Fungsi Kartesius---------------------------//
@@ -191,10 +190,6 @@ switch (key)
  	case 'b': 
         hidden = !hidden;
         break;
-    case 'u' :
-    	scale += 0.5;
-    case 'y' :
-    	scale -= 0.5;
 }
 	glutPostRedisplay();
 }

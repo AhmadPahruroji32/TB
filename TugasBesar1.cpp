@@ -34,28 +34,28 @@ void drawCartesius()
 //fungsi membuat meja kursi dan leptop
 void mejkurlep(){
 //-------------------------------------------Meja--------------------------
-//kakai meja 1
+//kaki meja 1
 	glPushMatrix();
 	glTranslatef(14.75f, -2.0f, 8.75f); 
 	glScalef(0.5f, 6.0f, 0.5f);  
 	glColor3ub(255, 240, 150);
 	glutSolidCube(1.0f);  
 	glPopMatrix();
-//kakai meja 2
+//kaki meja 2
 	glPushMatrix();
 	glTranslatef(10.75f, -2.0f, 8.25f);  
 	glScalef(0.5f, 6.0f, 0.5f);  
 	glColor3ub(255, 240, 150);  
 	glutSolidCube(1.0f);  
 	glPopMatrix();
-//kakai meja 3
+//kaki meja 3
 	glPushMatrix();
 	glTranslatef(10.5f, -2.0f, 0.10f);  
 	glScalef(0.5f, 6.0f, 0.5f);  
 	glColor3ub(255, 240, 150);
 	glutSolidCube(1.0f);  
 	glPopMatrix();
-//kakai meja  4
+//kaki meja  4
 	glPushMatrix();
 	glTranslatef(14.5f, -2.0f, 0.10f);  
 	glScalef(0.5f, 6.0f, 0.5f);  
@@ -100,28 +100,28 @@ void mejkurlep(){
     glutSolidCube(1.0f);
     glPopMatrix();
 //--------------------------------------------------kursi-----------------------
-// kakai kursi  1
+// kaki kursi  1
     glPushMatrix();
     glColor3ub(48, 52, 59);
     glTranslatef(11.75, -3.5, 5.70);
     glScalef(0.5, 2.9, 0.5);
     glutSolidCube(1.0);
     glPopMatrix();
-// kakai kursi  2
+// kaki kursi  2
     glPushMatrix();
     glColor3ub(48, 52, 59);
     glTranslatef(8.0, -3.5, 5.70);
     glScalef(0.5, 2.9, 0.5);
     glutSolidCube(1.0);
     glPopMatrix();
-// kakai kursi  3
+// kaki kursi  3
     glPushMatrix();
     glColor3ub(48, 52, 59);
     glTranslatef(8.75, -3.5, 2.75);
     glScalef(0.5, 2.8, 0.5);
     glutSolidCube(1.0);
     glPopMatrix();
-// kakai kursi  4
+// kaki kursi  4
     glPushMatrix();
     glColor3ub(48, 52, 59);
     glTranslatef(11.75, -3.5, 2.75);

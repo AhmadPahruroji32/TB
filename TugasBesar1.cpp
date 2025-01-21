@@ -403,7 +403,7 @@ void display(){
   if (hidden) {
         drawCartesius();
     }
-    glScalef(scale, scale, scale);
+  
 	glFlush();
 	glutSwapBuffers();
 }
@@ -414,7 +414,7 @@ void initLighting()
     glEnable(GL_LIGHTING);
     glEnable(GL_LIGHT0);
 
-    GLfloat lightPos[] = {80.0f, 60.0f, 50.0f, 1.0f};
+    GLfloat lightPos[] = {60.0f, 60.0f, 40.0f, 1.0f};
     GLfloat lightDiffuse[] = {0.8f, 0.8f, 0.8f, 1.0f};
     GLfloat lightSpecular[] = {1.0f, 1.0f, 1.0f, 1.0f};
 

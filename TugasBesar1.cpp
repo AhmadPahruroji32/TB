@@ -349,7 +349,7 @@ void display(){
 	glPopMatrix();
 //-----------------------------------------AC------------------------------------
 	glPushMatrix();
-	glTranslatef(0.5f, 5.5f, -8.5f);
+	glTranslatef(0.5f, 5.5f, -9.5f);
 	glScalef(7.0f, 2.0f, 2.0f);
 	glColor3ub(255, 255, 255); 
 	glutSolidCube(1.0f);
